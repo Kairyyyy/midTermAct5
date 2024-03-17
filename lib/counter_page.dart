@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class CounterPage extends StatefulWidget {
   const CounterPage({super.key});
@@ -32,8 +33,8 @@ class _CounterPageState extends State<CounterPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Our First Android App',
-          style: TextStyle(color: Colors.white),
+        title: Text('Our First Android App',
+          style: GoogleFonts.play(color: Colors.white),
         ),
         centerTitle: true,
         backgroundColor: Colors.red,
@@ -66,11 +67,11 @@ class _CounterPageState extends State<CounterPage> {
           children: [
             Text (
               _counter.toString(),
-              style: const TextStyle(color: Colors.white, fontSize: 175, height: -1),
+              style: GoogleFonts.pressStart2p(color: Colors.white, fontSize: 150, height: -1),
             ),
-            const Text(
+            Text(
               "Group D",
-              style: TextStyle(color: Colors.white54, fontSize: 20),
+              style: GoogleFonts.play(color: Colors.white54, fontSize: 20),
             ),
             const Text(
                 ""
