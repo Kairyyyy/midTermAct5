@@ -67,7 +67,7 @@ class _CounterPageState extends State<CounterPage> {
           children: [
             Text (
               _counter.toString(),
-              style: GoogleFonts.pressStart2p(color: Colors.white, fontSize: 150, height: -1),
+              style: GoogleFonts.pressStart2p(color: Colors.white, fontSize: 100, height: -1),
             ),
             Text(
               "Group D",
